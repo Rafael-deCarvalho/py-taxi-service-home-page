@@ -17,4 +17,3 @@ def index(request):
 
     html = render_to_string("taxi/index.html", context, request=request)
     return HttpResponse(html)
-
